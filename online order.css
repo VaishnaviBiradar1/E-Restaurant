@@ -1,0 +1,22 @@
+/* body{
+    background-image: url("E14.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120%;
+    width: 100%;
+
+} */
+.f1{
+    text-align: left;
+    background-color: aliceblue;
+    height: 150px;
+    width: 1420px;
+    margin-left: 50px;
+    padding: 30px;
+    margin-right: 150px;
+    margin-top: 20px;
+
+}
+table{
+    margin-left: 50px;
+}

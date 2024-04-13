@@ -1,0 +1,16 @@
+body{
+    background-image: url("E13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 210px;
+    font-style: italic;
+    
+}
+a{
+    color: white;
+}

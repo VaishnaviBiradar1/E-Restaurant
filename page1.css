@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+ body{
+    background-image: url("E24.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    color:white;
+    font-size: larger;
+    font-style: normal;
+    margin-top: 250px;
+    background-color: black;
+} 
+p{
+    text-align:center;
+    font-size: xx-large;
+    font-style: oblique;
+    /* margin-top: 20px; */
+    color:white;
+    background-color: black;
+}
+
+.slide{
+    
+    border-radius: 10%;
+    width: 1200%;
+    height:3000%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slide 15s linear infinite 2s;
+    animation-timing-function: ease-in-out;
+    background-image: url();
+    
+}
+
+@keyframes slide{
+    
+    0%{
+        background-image: url("E1.jpg");
+        background-size: cover;
+
+    }
+    15%{
+       background-image: url('E2.jpg');
+    }
+    30%{
+        background-image: url("E3.jpg");
+    }
+    40%{
+        background-image: url('E4.jpg'); 
+    }
+    55%{
+        background-image:url('E5.jpg'); 
+    }
+    70%{
+        background-image:url('E6.png'); 
+    }
+    100%{
+        background-image:url("E7.jpg"); 
+    }
+    
+    
+    
+}
+.menu-bar{
+    /* background-color:black; */
+    text-align: left;
+    margin-top: 10px;
+
+
+}
+/* body{
+    background-image: url(E1.jpg);
+    background-repeat: initial ;
+    background-size: cover;
+} */
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:gray;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:white;
+
+}
+.active,.menu-bar ul li:hover{
+    background-color: palevioletred;
+    border-radius:  3px; ;
+}
+.sub-menu1{
+    display:none ;
+
+}
+.menu-bar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background-color:rgb(34, 34, 68);
+    margin: top;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background:transparent ;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+
+/* .slide{
+    
+    border-radius: 10%;
+    width: 1200%;;
+    height:3000%;
+    margin-top:10%;
+    margin-bottom: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slide 15s linear infinite 2s;
+    animation-timing-function: ease-in-out;
+    background-image: url();
+    
+}
+
+@keyframes slide{
+    
+    0%{
+        background-image: url("E1.jpg");
+        background-size: cover;
+
+    }
+    15%{
+       background-image: url('E2.jpg');
+    }
+    30%{
+        background-image: url("E3.jpg");
+    }
+    40%{
+        background-image: url('E4.jpg'); 
+    }
+    55%{
+        background-image:url('E5.jpg'); 
+    }
+    70%{
+        background-image:url('E6.png'); 
+    }
+    100%{
+        background-image:url("E7.jpg"); 
+    }
+    
+    
+    
+} */
